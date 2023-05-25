@@ -1,0 +1,21 @@
+open gcp
+click enabled apis and services
+enable google app engine
+create new project
+give name
+open console and cloud shell
+
+
+$gcloud projects list
+$gcloud config set project <projectid>
+$gcloud app create 
+$7
+$git clone <github link> (remove .git>
+$cd python-docs-samples
+$cd appengine
+$cd standard-python3
+$cd hello_world
+$ls
+$python3 main.python-docs-samples
+
+open link

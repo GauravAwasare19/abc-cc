@@ -1,0 +1,9 @@
+open virtual box
+create a folder in downloads of ubuntu 
+open devices up in left top corner
+  -> shared devices
+  -> machine folder
+  ->right side add symbol and select folder from windows we want to add(folder must have some txt file atleast)
+  ->tick auto mount and make permanent
+  ->opem downloads -> open in terminal ->type command
+                               -> $ sudo mount -t vboxsf (windows folder name)(ubuntu folder name)  

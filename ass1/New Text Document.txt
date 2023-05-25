@@ -1,0 +1,42 @@
+download sdk installer
+install sdk
+
+google cloud shell
+ -> $ gcloud init
+ -> then connect google account
+
+
+open new folder
+make 2 files
+
+test.py->>
+
+import webapp2
+
+class MainPage(webapp2.RequestHandler):
+    def get(self):
+        self.response.write("Hello World")
+
+app = webapp2.WSGIApplication([('/',MainPage)],debug = True)        
+
+
+app.yml->>>
+
+import webapp2
+
+class MainPage(webapp2.RequestHandler):
+    def get(self):
+        self.response.write("Hello World")
+
+app = webapp2.WSGIApplication([('/',MainPage)],debug = True)       
+
+
+>>>go to cloud shell again
+here we use utiltiy server present in bin of cloud sdk folder
+
+
+->$ py google-cloud-sdk\bin\dev_appserver.py   {path of folder created by us here}
+
+here above after py the path of dev_appserver is given
+
+we get loaclhost 8000
